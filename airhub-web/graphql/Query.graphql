@@ -1,0 +1,31 @@
+query MarketPlace_Item_details($where: MarketPlaceWhereUniqueInput!) {
+  marketPlace(where: $where) {
+    createdAt
+    id
+    itemDescription {
+      document
+    }
+    itemImage {
+      id
+      itemImage {
+        id
+        url
+      }
+    }
+    itemName
+    itemPrice
+    itemTag {
+      id
+      tag
+    }
+    lastBumped
+    user {
+      id
+      email
+      name
+      userImage {
+        url
+      }
+    }
+  }
+}
