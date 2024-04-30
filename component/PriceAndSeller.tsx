@@ -8,7 +8,7 @@ import PublicIcon from "@mui/icons-material/Public";
 import TimelineIcon from "@mui/icons-material/Timeline";
 import moment from "moment";
 import InventoryIcon from "@mui/icons-material/Inventory";
-import { MarketPlaceItem } from "../type";
+import { MarketPlaceItem } from "@/type";
 import { LikesViewsCount } from "./ItemShare/LikesViewsCount";
 import { redirect } from "next/navigation";
 import { useRouter } from "next/router";

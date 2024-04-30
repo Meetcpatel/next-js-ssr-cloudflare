@@ -3,8 +3,8 @@ import Image from "next/image";
 import { getImgURL } from "../getImgURL";
 import { MessageSellerButton } from "./MessageSellerButton";
 import { SellerName } from "./SellerName";
-import { Dispatch, SetStateAction } from "react";
 import { useDeviceInfo } from "@/hooks/useDeviceInfo";
+import { Dispatch, SetStateAction } from "react";
 
 export const UserImage = ({
   sellerName,

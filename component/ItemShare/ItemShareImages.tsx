@@ -1,3 +1,4 @@
+import Loading from "@/pages/item-share/loading";
 import { Box, Button, Skeleton } from "@mui/material";
 import Image from "next/image";
 import { Dispatch, SetStateAction, Suspense, useEffect, useState } from "react";
@@ -5,7 +6,6 @@ import PriceAndSeller from "../PriceAndSeller";
 import { getImgURL } from "../getImgURL";
 import { useMobileSize } from "../utils";
 import { MarketPlaceItem } from "@/type";
-// import { MarketPlaceItem } from "@/type";
 
 export const ItemShareImages = ({
   marketPlaceItem,

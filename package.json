@@ -1,5 +1,5 @@
 {
-  "name": "my-next-app",
+  "name": "airhub-web",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -9,7 +9,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "codegen": "graphql-codegen --config codegen.ts"
   },
   "dependencies": {
     "@apollo/client": "^3.9.6",

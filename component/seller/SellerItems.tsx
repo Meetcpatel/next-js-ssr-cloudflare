@@ -1,3 +1,4 @@
+import { Seller_ItemsQuery } from "@/type";
 import { Box, ImageList, Skeleton, Typography } from "@mui/material";
 import Image from "next/image";
 import { getImgURL } from "../getImgURL";
@@ -12,7 +13,6 @@ import { useState } from "react";
 import { Figtree } from "../utils";
 import { LoaderComponent } from "./LoaderComponent";
 import { useDeviceInfo } from "@/hooks/useDeviceInfo";
-import { Seller_ItemsQuery } from "@/type";
 
 export const SellerItems = ({
   data,

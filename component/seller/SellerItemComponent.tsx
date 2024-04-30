@@ -1,10 +1,10 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
 import { getImgURL } from "../getImgURL";
+import { Seller_ItemsQuery, Seller_ItemsQueryType } from "@/type";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import { useDeviceInfo } from "@/hooks/useDeviceInfo";
-import { Seller_ItemsQueryType } from "@/type";
 
 const ImageComponent = ({ src }: any) => (
   <Image
