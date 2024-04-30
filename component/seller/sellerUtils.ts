@@ -1,8 +1,8 @@
-import { Seller_ItemsQuery } from "../../type";
+import { OrderDirection } from "@/graphql/graphql-types";
+import { Seller_ItemsQuery } from "@/type";
 import moment from "moment";
 import { GetServerSidePropsContext } from "next";
 import gql from "graphql-tag";
-import { OrderDirection } from "@/graphql/graphql-types";
 
 export function extractUserData(data: Seller_ItemsQuery) {
   const user = data?.marketPlaces?.[0]?.user;

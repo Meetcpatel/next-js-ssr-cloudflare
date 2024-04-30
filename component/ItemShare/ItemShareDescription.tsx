@@ -2,7 +2,6 @@ import { Box, Grid, Typography } from "@mui/material";
 import { GlobalColorStyle, splitParagraphs } from "../utils";
 import { DocumentRenderer } from "../DocumentRenderer";
 import { MarketPlaceItem } from "@/type";
-// import { MarketPlaceItem } from "@/type";
 
 export const ItemShareDescription = ({
   marketPlaceItem,

@@ -4,7 +4,7 @@ import { getImgURL } from "./getImgURL";
 import { useScreenSize } from "./utils";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
-import { MarketPlaceItem } from "../type";
+import { MarketPlaceItem } from "@/type";
 
 export default function ShareModal({
   shareModal,

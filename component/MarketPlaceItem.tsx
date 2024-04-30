@@ -18,10 +18,12 @@ import BottomBar from "./BottomBar";
 import StoreModal from "./StoreModal";
 import ShareModal from "./ShareModal";
 import { styled } from "@mui/system";
+import { DocumentRenderer } from "./DocumentRenderer";
+import Loading from "@/pages/item-share/loading";
 import { ItemShareAppBar } from "./ItemShare/ItemShareAppBar";
 import { ItemShareDescription } from "./ItemShare/ItemShareDescription";
 import { ItemShareImages } from "./ItemShare/ItemShareImages";
-import { MarketPlaceData } from "../type";
+import { MarketPlaceData } from "@/type";
 
 export const MarketPlaceItem = ({ data }: MarketPlaceData) => {
   const marketPlaceItem = data?.marketPlace;

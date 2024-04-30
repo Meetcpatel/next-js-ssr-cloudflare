@@ -7,7 +7,7 @@ import {
 } from "@apollo/client";
 import { onError } from "@apollo/client/link/error";
 
-const GRAPHQL_URL = `https://api.airhub-app.com/api/graphql`;
+const GRAPHQL_URL = process.env.GRAPHQL_URL;
 
 const authLink = new ApolloLink((operation, forward) => {
   operation.setContext(({ headers = {} }) => ({
